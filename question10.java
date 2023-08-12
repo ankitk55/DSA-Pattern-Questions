@@ -8,7 +8,10 @@ public class question10 {
                 System.out.print("  ");
             }
             for(int j=2*i-1;j>=1;j--){
+               
+              
                 System.out.print("* ");
+               
             }
             System.out.println();
         }

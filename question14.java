@@ -6,18 +6,18 @@ public class question14 {
        for(int i=1;i<=2*n-1;i++){
         if(i<=n){
             for(int j=1;j<=n-i;j++){
-                System.out.print("  ");
+                System.out.print(" \t");
             }
             for(int j=1;j<=i;j++){
-                System.out.print("* ");
+                System.out.print("*\t");
             }
         }
         else{
             for(int j=1;j<=i-n;j++){
-                System.out.print("  ");
+                System.out.print(" \t");
             }
             for(int j=1;j<=(2*n-1)-i+1;j++){
-                System.out.print("* ");
+                System.out.print("*\t");
             }
         }
         System.out.println();
